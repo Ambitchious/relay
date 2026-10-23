@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+httpx==0.28.1
+pydantic==2.10.4
+plotly==5.24.1
+python-dotenv==1.0.1
+
+# Optional: tracing. The app runs without it.
+langfuse==2.57.0
+
+# Dev
+pytest==8.3.4

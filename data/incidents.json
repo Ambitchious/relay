@@ -1,0 +1,38 @@
+[
+  {
+    "id": "INC-4417",
+    "service": "spark",
+    "title": "Executor OOM on the shared cluster after driver memory change",
+    "severity": "SEV2",
+    "status": "open",
+    "opened_at": "2026-10-22T08:15:00Z",
+    "runbook": "spark-executor-oom"
+  },
+  {
+    "id": "INC-4412",
+    "service": "airflow",
+    "title": "Scheduler heartbeat lag causing delayed DAG starts",
+    "severity": "SEV3",
+    "status": "open",
+    "opened_at": "2026-10-21T19:40:00Z",
+    "runbook": "airflow-scheduler-lag"
+  },
+  {
+    "id": "INC-4401",
+    "service": "trino",
+    "title": "Coordinator rejecting queries during metastore failover",
+    "severity": "SEV2",
+    "status": "resolved",
+    "opened_at": "2026-10-18T11:02:00Z",
+    "runbook": "trino-query-rejected"
+  },
+  {
+    "id": "INC-4388",
+    "service": "druid",
+    "title": "Historical nodes slow to load new segments",
+    "severity": "SEV3",
+    "status": "resolved",
+    "opened_at": "2026-10-14T06:25:00Z",
+    "runbook": null
+  }
+]

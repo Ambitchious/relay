@@ -1,0 +1,31 @@
+{
+  "spark": {
+    "as_of": "2026-10-23T01:00:00Z",
+    "success_rate_pct": 97.4,
+    "p95_job_duration_s": 412,
+    "running_jobs": 63,
+    "queue_depth": 19
+  },
+  "airflow": {
+    "as_of": "2026-10-23T01:00:00Z",
+    "success_rate_pct": 99.6,
+    "p95_task_duration_s": 88,
+    "running_jobs": 240,
+    "queue_depth": 4,
+    "scheduler_heartbeat_lag_s": 31
+  },
+  "trino": {
+    "as_of": "2026-10-23T01:00:00Z",
+    "success_rate_pct": 99.9,
+    "p95_query_duration_s": 12,
+    "running_jobs": 17,
+    "queue_depth": 0
+  },
+  "druid": {
+    "as_of": "2026-10-23T01:00:00Z",
+    "success_rate_pct": 99.8,
+    "p95_query_duration_s": 3,
+    "running_jobs": 8,
+    "queue_depth": 1
+  }
+}
